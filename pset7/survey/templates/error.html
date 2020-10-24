@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <!-- http://getbootstrap.com/docs/4.1/components/alerts/ -->
+    <!--<div class="alert alert-danger" role="alert">-->
+    <!--    <h4 class="alert-heading">Error</h4>-->
+    <!--    <p>{{ message }}</p>-->
+    <!--</div>-->
+    <div class="col">
+        <div class="jumbotron">
+            <h1 class="display-3">{{ error.code }}</h1>
+            <p class="lead">{{ error.name }}</p>
+            <hr class="my-4"/>
+            <p class="my-ered">{{ error.description }}</p>
+        </div>
+    </div>
+
+{% endblock %}

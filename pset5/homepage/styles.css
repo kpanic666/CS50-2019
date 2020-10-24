@@ -1,0 +1,20 @@
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+body {
+  background-color:#D4E4F7;
+}
+
+h2 {
+  color:#341C09;
+}
+
+.p_1 {
+  font-style: italic;
+}
